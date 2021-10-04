@@ -24,6 +24,7 @@ function App() {
     }
   }, [allHouses])
   
+  //para trabalhar com rotas, tenho que instalar o react-router-dom
   return (
     <Router>
       <div className="container">
