@@ -10,6 +10,7 @@ const HouseFilter = ({ allHouses }) => {
 
     const onSearchChange = (e) => {
         const country = e.target.value;
+        console.log('Método onSearch acionado');
         history.push(`searchresults/${country}`);
     }
 
